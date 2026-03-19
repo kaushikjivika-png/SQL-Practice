@@ -32,10 +32,10 @@ SQL-Practice/
 │
 ├── Basic-Queries/
 ├── Joins/
-|──Constraints
 ├── Subqueries/
 ├── Aggregate-Functions/
-├── Table related queries
+|──Constraints/
+├── Table related queries/
 └── HackerRank-Practice/
 
 ---
