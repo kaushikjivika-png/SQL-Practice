@@ -1,14 +1,14 @@
-RIGHT JOIN returns all records from the right table and the matched records from the left table.
-If there is no match, the result will contain NULL values for the left table columns.
+-- RIGHT JOIN returns all records from the right table and the matched records from the left table.
+-- If there is no match, the result will contain NULL values for the left table columns.
 
-Syntax:
+-- Syntax:
 
 SELECT columns
 FROM table1
 RIGHT JOIN table2
 ON table1.common_column = table2.common_column;
 
-Query:
+-- Query:
 
 SELECT Employees.name, Departments.dept
 FROM Employees
